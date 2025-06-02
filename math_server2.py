@@ -1,10 +1,7 @@
 from mcp.server.fastmcp import FastMCP
 import logging
-import asyncio
 from typing import Annotated, Dict, Any, Optional
-from fastapi import FastAPI, HTTPException, Request
-import uvicorn
-import traceback
+
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("math_server")
